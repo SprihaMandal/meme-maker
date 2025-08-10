@@ -1,0 +1,56 @@
+body {
+    display: flex;
+    background-color: #000000;
+    justify-content: center;
+    font-family: "Libre Baskerville", serif;
+}
+
+#main-container {
+    justify-content: center;
+    height: 350px;
+    width: 700px;
+    place-items: center;
+    margin-top: 30px;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    border: 5px solid white;
+}
+
+h1 {
+    color: white;
+    text-transform: uppercase;
+    font-family: "Libre Baskerville", serif;
+}
+
+p {
+    color: white;
+    font-family: "Libre Baskerville", serif;
+}
+
+
+button {
+    background: #6a0505;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: "Libre Baskerville", serif;
+
+}
+
+button:hover {
+    background: #c21212;
+}
+
+.button-group {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+
